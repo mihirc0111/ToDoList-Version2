@@ -2,6 +2,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const app = express();
 //Added by me which is not present in Lecture(IMP !!!!!)
 const request=require("request");
 const cors = require('cors')
@@ -14,7 +15,7 @@ app.use(cors())
 main().catch((err) => console.log("err"));
  
  
-const app = express();
+
  
 app.set('view engine', 'ejs');
  
