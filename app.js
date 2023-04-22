@@ -25,8 +25,8 @@ app.use(express.static("public"));
  
  
 async function main() {
-  const password = process.env.password;
-  await mongoose.connect("mongodb+srv://admin-mihir:"+password+"@cluster0.l3cmxol.mongodb.net/todolistDB");
+  const MONGODB_URI = process.env.MONGODB_URI;
+  await mongoose.connect(MONGODB_URI);
 }
  
 const itemsSchema = new mongoose.Schema({
