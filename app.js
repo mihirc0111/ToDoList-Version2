@@ -6,6 +6,8 @@ const mongoose = require("mongoose");
 const request=require("request");
 const cors = require('cors')
 require("dotenv").config();
+app.use(bodyParser.json());
+app.use(cors())
 // require these installations for env file to protect password(IMP!!!!!)
 //npm i require body-parser cors dotenv
  
