@@ -1,5 +1,8 @@
 # ToDoList-Version2
-This is a TODO website created using Node & EJS as backend and MongoDB database.
+This is a ToDo Website created using Node & EJS as backend and MongoDB database and Mongoose (Dynamic database using MongoDB Atlas).
+
+# Mongoose
+Mongoose is an Object Data Modeling (ODM) library for Node.js and MongoDB. It provides a higher-level abstraction layer over the MongoDB driver and simplifies the interactions with MongoDB by allowing developers to use a schema-based approach for data modeling and validation.
 
 
 # Home Page
