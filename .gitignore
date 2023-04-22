@@ -1,5 +1,5 @@
 .env
-node_modules/
+# node_modules/
 app2.js
 app3.js
 app4.js
